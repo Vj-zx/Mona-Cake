@@ -29,15 +29,16 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    height: 150px;
 }
-.first > h1{
+.first>div>h1{
     font-size: 35px;
-    padding-left: 10px;
+    padding-left: 50px;
 }
-.first>p{
-    padding:0px 10px;
+.first>div>p{
+    padding:10px 50px;
 }
-.first>a{
+.first>div>a{
     background-color: whitesmoke;
     text-decoration: none;
     border:2px black solid;
@@ -45,12 +46,11 @@
     padding: 5px;
     color: black;
     width: 100px;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
     text-align: center;
 }
-.first a:hover{
+.first>div>a:hover{
     background-color: var(--color1);
     color: whitesmoke;
     border: 2px var(--color1) 50%;
@@ -62,14 +62,11 @@ img{
     margin: 10px auto ;
     width: 80vw;
     display: flex;
-    overflow-x: scroll;
+    overflow: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0%, 0%, 0%, 0.25);
     border-radius: 0.5rem;
-    animation: scroll;
-    animation-duration : 8s ;
-    animation-iteration-count: infinite;
 }
 .carousel-item{
     text-align: center;
@@ -213,7 +210,7 @@ i:hover{
     filter: blur(5px);
     transform: translateX(-100%);
     transition: all 1s;
-}
+} 
 .show{
     opacity: 1;
     filter: blur(0);
