@@ -181,7 +181,7 @@ img{
     padding: 7px;
     border-radius: 30px;
     text-decoration: none;
-    color: var(--color1);
+    color: black;
 }
 .seven>a:hover{
     background-color: var(--color1);
