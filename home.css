@@ -181,7 +181,7 @@ img{
     padding: 7px;
     border-radius: 30px;
     text-decoration: none;
-    color: black;
+    color: var(--color1);
 }
 .seven>a:hover{
     background-color: var(--color1);
@@ -198,6 +198,7 @@ img{
     padding: 40px 30px;
 }
 .eight i{
+    color:black;
     font-size: 1.5em;
     padding-left: 30px;
     padding-bottom: 10px;
